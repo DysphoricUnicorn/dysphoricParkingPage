@@ -7,5 +7,5 @@ If you use it, maybe replace my name and links though.
 
 There is a [demo page](https://parking.svc.dysphoric.space) that will always serve it.
 
-I was meaning to use GitHub pages, but it doesn't allow one to use custom directory like `src/` as root, and I'm not sure it works
+I was meaning to use GitHub pages, but it doesn't allow one to use custom directories like `src/` as root, and I'm not sure it works
 well with multiple domains attached.
