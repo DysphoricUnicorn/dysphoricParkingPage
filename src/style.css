@@ -1,0 +1,52 @@
+:root {
+    font-family: sans-serif;
+    --bg-color: #ffccff;
+    --font-color: navy;
+    --link-color: #6600cc;
+    --article-background-color: #e6e6e6;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #400080;
+        --font-color: #00ffff;
+        --link-color: #99ffcc;
+        --article-background-color: #660066;
+    }
+}
+
+html {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+article {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--article-background-color);
+}
+
+h1, h2 {
+    border-bottom: 1px solid;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 700px) {
+    article, h1 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
